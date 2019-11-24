@@ -60,11 +60,15 @@ a:link, a:visited {
 }
 
 .body-flex-center {
-    flex: 3;
+    flex: 2;
     background-color: whitesmoke;
 }
 
 .body-flex-right {
     flex: 1;
     background-color: whitesmoke;
+}
+
+.content-container {
+    padding-top: 50px;
 }

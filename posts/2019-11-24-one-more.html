@@ -12,10 +12,6 @@
             });
         </script>
         <link rel="stylesheet" href="../basic_styles.css">
-        <script>
-            var md = window.markdownit();
-            var result = md.render('# markdown-it rulezz!');
-        </script>
     </head>
     <body>
         <div class="nav-container">
@@ -29,8 +25,10 @@
         <div class="body-flex-container">
             <div class="body-flex-left"></div>
             <div class="body-flex-center">
-                <!--Content-->
-                <zero-md src="./2019-11-24-one-more.md"></zero-md>
+                <div class="content-container">
+                    <!--Content-->
+                    <zero-md src="./2019-11-24-one-more.md"></zero-md>
+                </div>
             </div>
             <div class="body-flex-right"></div>
         </div>
