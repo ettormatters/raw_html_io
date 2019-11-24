@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="basic_styles.css">
+        <style>
+            .item-container {
+                display: flex;
+                flex-direction: row;
+                padding-right: 10px;
+                padding-left: 10px;
+                border-bottom: 1px solid black;
+            }
+
+            .item-title {
+                flex:3;
+                padding-left: 20px;
+                padding-top: 10px;
+            }
+
+            .item-date {
+                flex:1;
+                text-align: center;
+                font-size: 0.5em;
+                padding-top: 17px;
+            }
+          </style>
+    </head>
+    <body>
+        <div class="nav-container">
+            <div class="logo">Myeong.</div>
+            <div class="link-container">
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About</a>
+            </div>
+            <div class="nav-right"></div>
+        </div>
+        <div class="body-flex-container">
+            <div class="body-flex-left"></div>
+            <div class="body-flex-center">
+                <!-- item list -->
+                <div class="item-container">
+                    <div class="item-date">2019-11-24</div>
+                    <div class="item-title"><a href="./posts/2019-11-24-one-more.html">One More.</a></div>
+                </div>
+                <!-- itme list over -->
+            </div>
+            <div class="body-flex-right"></div>
+        </div>
+    </body>
+</html>

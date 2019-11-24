@@ -1,0 +1,70 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: whitesmoke;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.nav-container {
+    font-family: 'Calistoga', cursive;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px double black;
+    flex:1;
+}
+
+.logo {
+    flex: 1;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-right {
+    flex:1;
+}
+
+.link-container {
+    font-size: 0.8em;
+    flex: 4;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.link-container a:link, a:visited {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.body-flex-container {
+    display: flex;
+    flex-direction: row;
+    flex: 99;
+}
+
+.body-flex-left {
+    flex: 1;
+    background-color: whitesmoke;
+}
+
+.body-flex-center {
+    flex: 3;
+    background-color: whitesmoke;
+}
+
+.body-flex-right {
+    flex: 1;
+    background-color: whitesmoke;
+}
