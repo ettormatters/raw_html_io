@@ -10,6 +10,7 @@ welcome!
 - [ ] google adsense
 - [ ] duplication reduction
 - [ ] viewport
+- [ ] custom domain with free
 - [ ] posting : local env setting in army computer
 - [ ] posting : react native errs
 - [ ] posting: flutter gitpod env
