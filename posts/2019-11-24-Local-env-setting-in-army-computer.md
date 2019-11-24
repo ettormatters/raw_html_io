@@ -8,7 +8,7 @@
 타이머가 돌아가는 java프로그램도 항상 돌아간다.  
 나중에 파일업로드를 이 프로그램들을 해킹하는 포스팅도 할 예정이다.  
 ## Situation and Problem and Idea
-1. Gitpod이라는 online 개발환경을 찾아서 잘 사용하고 있었다. 
+1. Gitpod이라는 online 개발환경을 찾아서 잘 사용하고 있었다.
 2. 하지만 browser에 rendering을 하는 데에 사소한 제약들이 생겼다.
     1. port가 열렸다 닫혔다 random하게 발생하는 문제
     2. chrome브라우저가 아닌 gitpod 내장 브라우저로서 띄워야 하는 문제
@@ -21,16 +21,19 @@
 테스트해봐야지.
 ```
 ## Testing
-https://zetawiki.com/wiki/%EC%9C%88%EB%8F%84%EC%9A%B0_Chocolatey_%EC%84%A4%EC%B9%98
+https://zetawiki.com/wiki/%EC%9C%88%EB%8F%84%EC%9A%B0_Chocolatey_%EC%84%A4%EC%B9%98  
 
-https://chocolatey.org/packages/vscode
+https://chocolatey.org/packages/vscode  
 
-https://chocolatey.org/packages/git.install
+https://chocolatey.org/packages/git.install  
 
-https://chocolatey.org/packages/nodejs-lts
+https://chocolatey.org/packages/nodejs-lts  
 
 ```
-@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe"
+ -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex
+ ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))"
+ && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 ```
 command(관리자)에서 위의 코드를 입력한다.  
 그럼 choco가 깔린다.  
