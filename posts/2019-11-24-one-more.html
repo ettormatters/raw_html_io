@@ -3,7 +3,7 @@
     <head>
         <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/showdown@<version tag>/dist/showdown.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/10.0.0/markdown-it.js"></script>
         <link rel="stylesheet" href="../basic_styles.css">
     </head>
     <body>
@@ -24,11 +24,8 @@
             <div class="body-flex-right"></div>
         </div>
         <script>
-            var node = document.getElementById('content');
-            var converter = new showdown.Converter();
-            var text = '# hello, markdown!';
-            var html = converter.makeHtml(text);
-            node.innerHTML(html);
+            var md = window.markdownit();
+            var result = md.render('# markdown-it rulezz!');
         </script>
     </body>
 </html>
