@@ -11,7 +11,10 @@ welcome!
 - [ ] duplication reduction
 - [ ] viewport
 - [ ] custom domain with free
+- [ ] zeromd width viewport fix
 - [ ] posting : local env setting in army computer
+    - [ ] meta tag
+    - [ ] layout err
 - [ ] posting : react native errs
 - [ ] posting: flutter gitpod env
 - [ ] posting: flutter local env err

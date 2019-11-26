@@ -52,6 +52,7 @@ a:link, a:visited {
     display: flex;
     flex-direction: row;
     flex: 99;
+    width: 100vx;
 }
 
 .body-flex-left {
