@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+        <script type="module">
+            WebComponents.waitFor(() => {
+            let el = document.createElement('script');
+            el.src = 'https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js';
+            document.head.appendChild(el);
+            });
+        </script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153224967-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-153224967-1');
+        </script>
+        <script data-ad-client="ca-pub-9989052788599948" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <link rel="stylesheet" href="../styles/basic_styles.css">
+    </head>
+    <body>
+        <div class="nav-container">
+            <div class="logo">Myeong.</div>
+            <div class="link-container">
+                <a href="../index.html">Home</a>
+                <a href="../about.html">About</a>
+            </div>
+            <div class="nav-right"></div>
+        </div>
+        <div class="body-flex-container">
+            <div class="body-flex-left"></div>
+            <div class="body-flex-center">
+                <div class="content-container">
+                    <!--Content-->
+                    <zero-md src="./2019-11-30-flutter-gitpod-env.md"></zero-md>
+                </div>
+            </div>
+            <div class="body-flex-right"></div>
+        </div>
+    </body>
+</html>
